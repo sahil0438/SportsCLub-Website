@@ -1,0 +1,195 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+p{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 70px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 575px;
+}
+
+header {
+    height: 100vh;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.details{
+    border:2px solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.about{
+    margin: 7%;
+    position: relative;
+    width:80%;
+    border-radius: 2%;
+    height:10vh;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    font-size: 50px;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+
+Section {
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+button {
+    width: 150px;  /* Set the width of the button */
+    height: 35px;  /* Set the height of the button */
+    font-size: 20px; /* Optional: adjust text size inside the button */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Moves text under image when space is not enough */
+    align-items: center; /* Aligns text and image vertically */
+    gap: 20px; /* Adds space between image and text */
+}
+
+.container img {
+    max-width: 100%; /* Ensures image does not overflow */
+    height: auto;
+}
+
+.text {
+    flex: 1; /* Allows text to take remaining space */
+    min-width: 200px; /* Prevents text from becoming too small */
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url(images/aboutbg.jpg);
+    min-height: 400px;
+}
+
+.pimg2 {
+    background-image: url(images/eventsbg.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(images/Registerbg.jpg);
+    min-height: 400px;
+}
+
+.pimg4 {
+    background-image: url(images/councilbg.png);
+    min-height: 400px;
+}
+
+.pimg5 {
+    background-image: url(images/contactbg.jpg);
+    min-height: 400px;
+}
+
+.pimg6 {
+    background-image: url(images/sportsbg.jpg);
+    min-height: 400px;
+}
+
+nav {
+    position: fixed; /* Fixes the nav to a specific position */
+    top: 0; /* Aligns it to the top of the page */
+    right: 425px; /* Aligns it to the right side */
+    padding: 10px; /* Adds space around the links */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#event-details {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+}
+
+.flex-grow-1 {
+    flex-grow: 1 !important;
+    color: white;
+    text-align: left;
+}
+
+i{
+    font-size: 20px;
+}
+
+.d-flex {
+    display: flex !important
+;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+
